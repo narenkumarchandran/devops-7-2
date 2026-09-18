@@ -5,7 +5,7 @@ const port = 3000;
 app.get('/status', (req, res) => {
   res.json({
     status: 'success',
-    message: 'Node.js REST API is up and running!',
+    message: 'Node.js REST API is up and running! and change made',
     timestamp: new Date().toISOString()
   });
 });
